@@ -62,16 +62,16 @@ To run the project locally, follow these steps:
 
 Configure environment variables in the backend folder using env.sample.
 
-4. Start the development server:
+4. **Start the development server:**
 
-5. Frontend:
+5. **Frontend:**
    
    ```bash
    cd frontend
    npm start
 
-7. Backend:
+7. **Backend:**
    
-  ```bash
-  cd backend
-  npm run dev
+   ```bash
+   cd backend
+   npm run dev
