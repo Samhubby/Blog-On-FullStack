@@ -8,7 +8,6 @@ export default defineConfig({
       "/api": {
         target: "https://fullstack-3xjz.onrender.com",
         changeOrigin:true,
-        rewrite: (path) => path.replace(/^\/api/, ''),
       },
     },
   },
