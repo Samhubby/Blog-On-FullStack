@@ -51,13 +51,13 @@ To run the project locally, follow these steps:
 3. Navigate to the frontend folder and install dependencies:
    
    ```bash
-    cd frontend
+    cd /Frontend
     npm install
 
 4. Navigate to the backend folder and install dependencies:
    
    ```bash
-    cd ../backend
+    cd /Backend
     npm install
 
 Configure environment variables in the backend folder using env.sample.
@@ -67,11 +67,11 @@ Configure environment variables in the backend folder using env.sample.
 5. **Frontend:**
    
    ```bash
-   cd frontend
+   cd /Frontend
    npm start
 
 7. **Backend:**
    
    ```bash
-   cd backend
+   cd /Backend
    npm run dev
