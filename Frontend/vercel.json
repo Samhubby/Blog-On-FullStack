@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/(.*)",
+            "destination": "https://fullstack-3xjz.onrender.com/$1"
+        }
+    ]
+}
