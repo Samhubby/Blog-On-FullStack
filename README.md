@@ -46,3 +46,26 @@ To run the project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/fullstack.git
+
+2. Navigate to the frontend folder and install dependencies:
+   ```bash
+    cd frontend
+    npm install
+
+3. Navigate to the backend folder and install dependencies:
+   ```bash
+    cd ../backend
+    npm install
+
+Configure environment variables in the backend folder using env.sample.
+
+4. Start the development server:
+   Frontend:
+   ```bash
+   cd frontend
+   npm start
+
+  Backend:
+  ```bash
+  cd backend
+  npm run dev
