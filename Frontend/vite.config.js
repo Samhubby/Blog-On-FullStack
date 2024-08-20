@@ -7,6 +7,7 @@ export default defineConfig({
     proxy: {
       "/api": {
         target: "https://fullstack-3xjz.onrender.com",
+        changeOrigin:true,
       },
     },
   },
