@@ -24,4 +24,4 @@ app.use("/api", userRouter);
 app.use("/api", blogRouter);
 app.use("/api", commentRouter);
 app.use("/api", authRouter);
-app.use(express.static("dist"));
+
