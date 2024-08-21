@@ -14,20 +14,21 @@ function App() {
 
   const noFooterPaths = ["/add-blogs"];
   useEffect(() => {
-    authService
-      .checkAuth()
-      .then((response) => {
+    const checkAuthentication = async () => {
+      try {
+        const response = await authService.checkAuth();
         if (response.success) {
           dispatch(login(response.data));
         }
-      })
-      .catch(() => {
+      } catch (error) {
+        console.error(error);
+      } finally {
         setLoading(false);
-      })
-      .finally(() => {
-        setLoading(false);
-      });
-  }, []);
+      }
+    };
+    checkAuthentication();
+  }, [dispatch]);
+
   if (loading) {
     return (
       <div className="flex justify-center items-center h-screen">
